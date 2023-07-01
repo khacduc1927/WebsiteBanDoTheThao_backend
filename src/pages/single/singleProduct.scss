@@ -1,0 +1,89 @@
+.singleProduct {
+    display: flex;
+    width: 100%;
+
+    .singleContainerProduct {
+        flex: 6;
+
+        .topProduct {
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+
+            .leftProduct {
+                flex: 3;
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                padding: 20px;
+                position: relative;
+
+                .editButtonProduct {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    padding: 5px;
+                    font-size: 21px;
+                    color: #7451f8;
+                    background-color: #7551f818;
+                    cursor: pointer;
+                    border-radius: 0px 0px 0px 5px;
+                }
+
+                .itemProduct {
+                    display: flex;
+                    gap: 20px;
+
+                    .itemImgProduct {
+                        width: 400px;
+                        height: 500px;
+                        border-radius: 1%;
+                        object-fit: cover;
+                    }
+
+                    .detailsProduct {
+                        margin-left: 20px;
+                        margin-top: -30px;
+
+                        .itemTitleProduct {
+                            margin-bottom: 10px;
+                            color: #555;
+                        }
+
+                        .detailItemProduct {
+                            margin-bottom: 10px;
+                            font-size: 21px;
+
+                            .itemKeyProduct {
+                                font-weight: bold;
+                                color: gray;
+                                margin-right: 5px;
+                            }
+
+                            .itemValueProduct {
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .rightProduct {
+                flex: 2;
+            }
+        }
+
+        .bottomProduct {
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            padding: 20px;
+            margin: 10px 20px;
+        }
+
+        .titleProduct {
+            font-size: 36px;
+            color: black;
+            margin-bottom: 30px;
+            margin-top: -20px;
+        }
+    }
+}
